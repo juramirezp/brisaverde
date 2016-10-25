@@ -1,0 +1,14 @@
+#h1{font-size:1em;position:fixed;z-index:-100;top:0}h3{font-size:1.5em;text-align:left}.icon-block{padding:0 15px}.icon-block .material-icons{font-size:inherit}
+#logo-menu{width:6em;padding-bottom:1em;margin-left:-.5em}#link-logo{margin-bottom:1em;padding-bottom:3em;height:7em;padding-top:1em}#img_all{width:13em}
+#l{color:white;font-size:1.2em}#l:hover{color:#a7ffeb}nav{position:absolute}.normal nav{transition:all .5s ease-in}#logo{width:7em}.scroll li{margin-top:0;transition:all .5s ease-in}
+.scroll nav{background-color:rgba(0,163,4,0.5);transition:all .5s ease-in}#index-banner{background-image:url("../img/cielo.jpg");height:55em;margin-top:-4.5em;background-size:cover;width:100%;height:100%}
+#index-banner h2{margin-top:3em;text-shadow:0 2px 2px white;font-weight:bold;font-family:'Raleway'}#btn-inicio{margin-top:1em}
+#nav-mobile i,#map-footer i{position:absolute}#map-footer a{margin-left:2em;color:#fff}#map-footer a:hover{color:#a7ffeb}.hide{display:none}form p{padding-top:1em}
+.banner{display:block;width:100%;z-index:5;margin:0;position:relative;bottom:-1.5em}footer{z-index:4;width:100%}#contacto{background-color:rgba(255,255,255,0.9);padding:2em;width:90%}
+#contacto span{color:white}#contacto p{font-size:1.3em}#prin-contacto{padding-bottom:10em;margin-bottom:-10em;margin-top:7em}#dec-serv{background-image:url("../img/cielo2.jpg")}
+.container{width:95%}#link-fb,#link-tw{margin-top:2em}#cuadros .card-image{max-height:50%}#cuadros .card-content{max-height:65%}.card-content p{text-align:justify}
+#presentacion{padding-top:2em;text-align:center}form .divider{margin-bottom:4em}#contacto .btn-floating{width:5em;height:5em;padding-top:1em}#contacto span{font-size:3em}
+#footer-contacto{font-size:1.5em}li a{font-weight:bold}#msn{font-size:1.7em;font-family:arial}#msn i{background-color:rgba(0,0,0,0.3);font-style:normal;padding:5px}
+.tit_serv{color:white;font-family:inherit}.tit_span{font-weight:bold;font-family:arial;font-size:1.5em}.fono a:link{text-decoration:none}#msg-serv{font-weight:bold}
+#nav-mobile i{position:relative}#logo{width:7em}.chico{animation:achicar 1s ease-in-out}.grande{animation:agrandar 1s ease-in-out}@keyframes achicar{0%{width:7em}
+100%{width:4em}}@keyframes agrandar{0%{width:4em}100%{width:7em}}

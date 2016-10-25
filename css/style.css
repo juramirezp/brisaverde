@@ -17,6 +17,13 @@
  	text-align: left;
  }
 
+
+
+
+
+
+
+
 .icon-block {
   padding: 0 15px;
 }
@@ -209,11 +216,11 @@ li a{
 	width: 7em;
 }
 .chico{
-	animation: achicar .5s ease-in-out;
+	animation: achicar 1s ease-in-out;
 
 }
 .grande{
-	animation: agrandar .5s ease-in-out;
+	animation: agrandar 1s ease-in-out;
 }
 @keyframes achicar {
   0% {
