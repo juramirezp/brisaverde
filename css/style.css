@@ -144,6 +144,12 @@ footer{
 #link-fb, #link-tw{
 	margin-top: 2em;
 }
+#cuadros .card-image{
+	max-height: 50%;
+}
+#cuadros .card-content{
+	max-height: 65%;
+}
 .card-content p{
 	text-align: justify;
 }
@@ -196,4 +202,32 @@ li a{
 }
 #nav-mobile i{
 	position: relative;
+}
+
+/*----------------------------*/
+#logo{
+	width: 7em;
+}
+.chico{
+	animation: achicar .5s ease-in-out;
+
+}
+.grande{
+	animation: agrandar .5s ease-in-out;
+}
+@keyframes achicar {
+  0% {
+    width: 7em;
+  }
+  100% {
+    width: 4em;
+  }
+}
+@keyframes agrandar {
+  0% {
+    width: 4em;
+  }
+  100% {
+    width: 7em;
+  }
 }

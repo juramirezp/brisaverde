@@ -74,7 +74,7 @@
 
     <div class="row">
         <div class="col s12 m6">
-          <div class="card medium">
+          <div class="card large" id="cuadros">
             <div class="card-image center">
               <img src="img/mision.jpg">
               
@@ -90,7 +90,7 @@ y eficiencia.
         </div>
 
         <div class="col s12 m6">
-          <div class="card medium">
+          <div class="card large" id="cuadros">
             <div class="card-image center">
               <img src="img/vision.jpg">
               
@@ -107,7 +107,7 @@ y eficiencia.
 
     <div class="row">
         <div class="col s12 m6">
-          <div class="card medium">
+          <div class="card large" id="cuadros">
             <div class="card-image center">
               <img src="img/limpieza.jpg">
             </div>
@@ -117,14 +117,14 @@ y eficiencia.
 calidad y satisfacción, cuidamos la salud de las personas y al medio ambiente al utilizar solo insumos de limpieza
 100% biodegradables, nuestro servicio es para hogares, empresas e industrias, fomentamos el reciclaje al gestionar
 la adquisición de contenedores y retiro de residuos con recolectores de base en sus respectivas comunas, queremos
-ser parte de un cambio global comprometidos con el cuidado del planeta
+ser parte de un cambio global comprometidos con el cuidado del planeta.
                 </p>
             </div>
           </div>
         </div>
 
         <div class="col s12 m6">
-          <div class="card medium">
+          <div class="card large" id="cuadros">
             <div class="card-image center">
               <img src="img/reciclaje.jpg">
               
@@ -315,10 +315,10 @@ comunas.</li>
     <div class="section" id="prin-contacto">
       <div id="contacto" class="container center">
         <div class="row">
-          <div class="col m12 s12">
+          <div class="col m6 s12">
             <div class="row">
               <a href="https://www.facebook.com/profile.php?id=100010720995990">
-              <div id="link-fb" class="col m6 s12">
+              <div id="link-fb" class="col m12 s12">
                 <a href="https://www.facebook.com/profile.php?id=100010720995990" id="btn-fc" class="btn-floating btn-large waves-effect waves-light indigo">
                 <span class="icon-facebook"></span>
                 </a>
@@ -407,6 +407,7 @@ comunas.</li>
           </ul>
         </div>
 
+
         <div class="col l3 s12" class="footer-links">
           <h5 class="white-text">Alianzas</h5>
           <ul>
@@ -437,7 +438,7 @@ comunas.</li>
     </div>
     <div class="footer-copyright">
       <div class="container center">
-      Desarrollado por <a class="orange-text text-lighten-3" href="http://pym-asesores.cl">PYM Asesores</a>
+      Desarrollado por <a class="orange-text text-lighten-3" href="http://bitealo.cl">Bitealo.cl</a>
       </div>
     </div>
   </footer>
@@ -481,8 +482,11 @@ comunas.</li>
                     //$("li a").addClass('black-text');
                     //$("#menu").removeClass('black-text');
                     //$("#menu").addClass('white-text');
-                      $("#logo").prop('src', 'img/logo-final_converted2.png');
-                      $("#logo").css("width", "3em");
+                    //$("#logo").prop('src', 'img/logo-final_converted2.png');
+                    
+                    $("#logo").removeClass("grande");
+                    $("#logo").addClass("chico");
+                    $("#logo").css("width", "4em");
                     tam_logo=1;
                   }                   
                 }else{
@@ -501,8 +505,11 @@ comunas.</li>
                     //$("#li-ns a").addClass('black-text');
                     //$("#li-con a").removeClass('white-text');
                     //$("#li-con a").addClass('black-text');  
-                    $("#logo").prop('src', 'img/logo-final_converted3.png');
-                    $("#logo").css("width", "250px");
+                    //$("#logo").prop('src', 'img/logo-final_converted3.png');
+                    //$("#logo").css("width", "250px");
+                    $("#logo").removeClass("chico");
+                    $("#logo").addClass("grande");
+                    $("#logo").css("width", "7em");
                     tam_logo=0;
                   }
                     
